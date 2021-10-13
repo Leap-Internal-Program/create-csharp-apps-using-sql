@@ -1,26 +1,35 @@
 # Create C# apps using SQL Server
 
 ## Summary
+Create a c# app that adds, deletes, updates, and retrieves information from a database.
 
-## Estimate Time
+## Estimated Time
+The estimate time is two to three hours.
 
 ## Resources
 Microsoft - [Create C# apps using SQL Server on Windows](https://www.microsoft.com/en-us/sql-server/developer-get-started/csharp/win)
 
+### Additional information
+Microsoft Docs - [System.Data.SqlClient.dll](https://docs.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqldatareader?view=dotnet-plat-ext-5.0)
+
 ## Directions
-The directions say:
+Follow the directions in *Step 2.1 Create a C# app that connects to SQL Server and executes queries* to create a console application that saves information to the database.
 >In this section, you will get SQL Server 2017 on Windows. After that you will install the necessary dependencies to create .NET Framework apps with SQL Server.
 
 However, these directions will work for a .NET Core Application and using SQL Server 2019.
 
 ### Skip instructions for
 - Step 1.1 Install SQL Server
-  - Read these steps, but you have already installed SQL server on you computer.  Do not reinstall SQL server.
+  - You may read these steps, but you have already installed SQL server on you computer.  Do not reinstall SQL server.
+  - The directionst say 
+  >In this section, you will get SQL Server 2017 on Windows. After that you will install the necessary dependencies to create .NET Framework apps with SQL Server.
+  
+    However, these directions will work for a .NET Core Application and using SQL Server 2019.  You may ignore the above line.
 - Step 1.2 Install Visual Studio Community Edition and .NET Framework
- - You already have Visual Studio installed on your machine.  You may skip these steps and move *go to step 2.*
+  - You already have Visual Studio installed on your machine.  Skip and *go to step 2.*
 
 ### Step 2.1 Create a C# app that connects to SQL Server and executes queries
-The lesson will tell you to copy and paste the code.  Do not copy and paste the code.  Instead learn through rewriting the code into Visual Studio. *It may make sesnse to copy a line or two, but overall writing the code will give you a deeper understanding.*
+The lesson will tell you to copy and paste the code.  Do not copy and paste the code.  Instead learn through rewriting the code.  Write the below codie into Visual Studio. *It may make sense to copy a line or two, but overall writing the code will give you a deeper understanding.*
 
 This lesson relies on the [System.Data.SqlClient.dll](https://docs.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqldatareader?view=dotnet-plat-ext-5.0) assembly, but does not explain many of the types used.  You may learn more about these classes on MS Docs:
 - [SqlConnection](https://docs.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlconnection?view=dotnet-plat-ext-5.0)
